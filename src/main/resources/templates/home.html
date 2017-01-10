@@ -1,0 +1,21 @@
+<html>
+<body>
+
+<br/><br/>
+
+<a href="/">All</a>
+<a href="/?category=Furniture">Furniture</a>
+<a href="/?category=Alcohol">Alcohol</a>
+<a href="/?category=Toiletries">Toiletries</a>
+<a href="/?category=Shoes">Food</a>
+<a href="/?category=Jewelry">Jewelry</a>
+
+<br/><br/>
+<table class="table table-stripped">
+    {{#users}}
+    <tr> <td>{{customer.name}}</td><td>{{customer.email}}</td><td>{{category}} </td><td>{{creditCard}} </td><td>{{cvv}}</td><td>{{date}}</td> </tr>
+    {{/users}}
+</table>
+
+</body>
+</html>
